@@ -1,0 +1,117 @@
+*{
+   background-color: antiquewhite;
+   margin: 0px 0px;
+   font-family: 'Arial', sans-serif;
+}
+
+
+
+   #header {
+      position: fixed;
+      background-color: green;
+      width: 100%;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      z-index: 1;
+  }
+
+  #div-1 {
+   display: inline;
+   background-color: green;
+   color: white;
+   padding-left: 40px;
+   padding-right: 65vw;
+}
+.div-2 {
+   padding-left: 10px;
+   padding-right: 10px;
+   background-color: green;
+
+}
+
+.text-prop {
+   color: white;
+   background-color: green;
+   text-decoration: none;
+}
+.text-prop:hover {
+   color: black; 
+}
+
+.section-1, .section-2 {
+   padding: 10px;
+   position: relative;
+   left: 27vw;
+   width: 44vw;
+   border-radius: 10px;
+   background-color: white;
+   
+}
+.section-2{
+   line-height: 27px;
+}
+
+#heading-1,#heading-2{
+   color: green;
+   background-color: whitesmoke;
+   padding-right: 20px;
+}
+
+
+
+.button {
+   background-color: #4CAF50; /* Green */
+   border: 2px solid black;
+   color: white;
+   /* padding: 15px 32px; */
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   width: 100%;
+ }
+
+ .button:hover {
+   color: black; 
+   /* background-color: greenyellow; */
+   cursor: pointer;
+}
+
+
+   .main,.main2{
+    background-color: whitesmoke;
+  
+ }  
+
+ table,tr,td,th{
+   background-color: white;
+   border: 1px solid rgb(198, 191, 191);
+   border-collapse: collapse;
+   margin: 10px;
+   padding: 10px;
+   align-items: center;
+}
+
+.anchor{
+   background-color: white;
+   color: green;
+}
+
+.input {
+   width: 98%;
+   background-color: white;
+   border: 1px solid rgb(198, 191, 191);
+   border-style: solid;
+   padding: 5px;
+   
+}
+.label {
+   background-color: white;
+}
+
+#submit{
+   padding: 5px;
+ 
+}
+
+ 
